@@ -1,0 +1,445 @@
+{
+  "user_info": {
+    "PersonalInfo": {
+      "MaritalStatus": "Married",
+      "FathersName": "test1_father",
+      "DOB": "1968-05-09T18:30:00.000Z",
+      "Gender": "Male",
+      "NoOfDependents": "4",
+      "Education": "12th grade",
+      "SpouseName": "HI123",
+      "MotherName": "test1_mother"
+    },
+    "WorkExperience": {
+      "PresentEmployer": "Uber",
+      "PreviousWorkExperience": "More than 1 year",
+      "PreviousEmployer": "",
+      "PresentWorkExperience": "Less than 1 year"
+    },
+    "LicenseIds": {
+      "LicenseNumber": "sagfs738945",
+      "PanNumber": "BCPA823748234",
+      "AadharNumber": "AINAkjsdhf7837",
+      "VoterId": "2423423",
+      "PassportNumber": "234",
+      "RationcardNumber": "234",
+      "RegistrationNumber": "dasgf234234",
+      "TaxiPermit": "dfg34343"
+    }
+  },
+  "additional_details": {
+    "SavingsInstruments": [{
+      "Date": "5",
+      "SavingType": "",
+      "Amount": ""
+    }, {
+      "Date": "656",
+      "SavingType": "",
+      "Amount": "65"
+    }, {
+      "Date": "5",
+      "SavingType": "",
+      "Amount": "65"
+    }, {
+      "Date": "65",
+      "SavingType": "",
+      "Amount": "65"
+    }, {
+      "Date": "65",
+      "SavingType": "",
+      "Amount": "6"
+    }, {
+      "Date": "6",
+      "SavingType": "",
+      "Amount": "56"
+    }, {
+      "Date": "63",
+      "SavingType": "",
+      "Amount": "58"
+    }, {
+      "Date": "25",
+      "SavingType": "",
+      "Amount": "88"
+    }, {
+      "Date": "18",
+      "SavingType": "",
+      "Amount": "150"
+    }, {
+      "Date": "6",
+      "SavingType": "",
+      "Amount": "56"
+    }, {
+      "Date": "18",
+      "SavingType": "",
+      "Amount": "186"
+    }, {
+      "Date": "27",
+      "SavingType": "",
+      "Amount": "64"
+    }],
+    "PrePaidBalance": [{
+      "DateOfRecharge": "2013-12-07T00:00:00.000Z",
+      "AmountOfRecharge": "1212322",
+      "BalanceAfterRecharge": "5",
+      "opened": false
+    }, {
+      "DateOfRecharge": "2014-03-06T00:00:00.000Z",
+      "AmountOfRecharge": "3232",
+      "BalanceAfterRecharge": "333",
+      "opened": false
+    }, {
+      "DateOfRecharge": "2013-11-13T00:00:00.000Z",
+      "AmountOfRecharge": "323",
+      "BalanceAfterRecharge": "w3r$#Qf",
+      "opened": false
+    }, {
+      "DateOfRecharge": "2013-12-12T00:00:00.000Z",
+      "AmountOfRecharge": "323232",
+      "BalanceAfterRecharge": "7232",
+      "opened": false
+    }, {
+      "DateOfRecharge": "2013-12-23T00:00:00.000Z",
+      "AmountOfRecharge": "33232",
+      "BalanceAfterRecharge": "7",
+      "opened": false
+    }, {
+      "DateOfRecharge": "2013-12-24T00:00:00.000Z",
+      "AmountOfRecharge": "432",
+      "BalanceAfterRecharge": "2328",
+      "opened": false
+    }],
+    "LoanRecords": [{
+      "EMIAmount": "",
+      "PaidAmount": "6",
+      "DueDate": null,
+      "PaidDate": "2015-12-12",
+      "opened1": false
+    }, {
+      "EMIAmount": "6",
+      "PaidAmount": "76 767676",
+      "DueDate": null,
+      "PaidDate": "2015-12-12",
+      "opened1": false
+    }, {
+      "EMIAmount": "67",
+      "PaidAmount": "767",
+      "DueDate": "2015-12-12",
+      "PaidDate": "2015-12-12"
+    }, {
+      "EMIAmount": "67",
+      "PaidAmount": "6",
+      "DueDate": "2015-12-30T00:00:00.000Z",
+      "PaidDate": "2016-01-05T00:00:00.000Z",
+      "opened1": false,
+      "opened": false
+    }, {
+      "EMIAmount": "67",
+      "PaidAmount": "767",
+      "DueDate": "2015-12-12",
+      "PaidDate": "2015-12-18T00:00:00.000Z",
+      "opened": false
+    }, {
+      "EMIAmount": "67",
+      "PaidAmount": "67",
+      "DueDate": "2015-12-16T00:00:00.000Z",
+      "PaidDate": "2015-12-12",
+      "opened1": false
+    }],
+    "BankStatements": [{
+      "OtherFees": "6",
+      "Credits": "1238",
+      "EMIs": "67",
+      "Debits": "678",
+      "CheckBounces": "76"
+    }, {
+      "OtherFees": "56",
+      "Credits": "767",
+      "EMIs": "67",
+      "Debits": "7",
+      "CheckBounces": "76"
+    }, {
+      "OtherFees": "56",
+      "Credits": "7",
+      "EMIs": "6",
+      "Debits": "",
+      "CheckBounces": "76"
+    }, {
+      "OtherFees": "56",
+      "Credits": "76",
+      "EMIs": "76",
+      "Debits": "67",
+      "CheckBounces": "76"
+    }, {
+      "OtherFees": "56",
+      "Credits": "767",
+      "EMIs": "76",
+      "Debits": "0",
+      "CheckBounces": "76"
+    }, {
+      "OtherFees": "5",
+      "Credits": "67",
+      "EMIs": "76",
+      "Debits": "0",
+      "CheckBounces": "767"
+    }],
+    "WaterBill": [{
+      "BillAmount": "",
+      "PaidAmount": "",
+      "DueDate": "",
+      "PaidDate": ""
+    }, {
+      "BillAmount": "",
+      "PaidAmount": "",
+      "DueDate": "",
+      "PaidDate": ""
+    }, {
+      "BillAmount": "",
+      "PaidAmount": "",
+      "DueDate": "",
+      "PaidDate": ""
+    }, {
+      "BillAmount": "",
+      "PaidAmount": "",
+      "DueDate": "",
+      "PaidDate": ""
+    }, {
+      "BillAmount": "",
+      "PaidAmount": "",
+      "DueDate": "",
+      "PaidDate": ""
+    }, {
+      "BillAmount": "",
+      "PaidAmount": "",
+      "DueDate": "",
+      "PaidDate": ""
+    }],
+    "Remittances": [{
+      "Date": "2015-12-12",
+      "Amount": "66",
+      "PlaceSent": ""
+    }, {
+      "Date": "2015-12-12",
+      "Amount": "5",
+      "PlaceSent": ""
+    }, {
+      "Date": "2015-12-12",
+      "Amount": "65",
+      "PlaceSent": ""
+    }, {
+      "Date": "2015-12-12",
+      "Amount": "65",
+      "PlaceSent": ""
+    }, {
+      "Date": "2015-12-12",
+      "Amount": "20",
+      "PlaceSent": ""
+    }, {
+      "Date": "2015-12-12",
+      "Amount": "6",
+      "PlaceSent": ""
+    }],
+    "Insurance": [{
+      "SumAssured": "6",
+      "PremiumAmount": "65",
+      "PremiumStatus": "5"
+    }, {
+      "SumAssured": "56",
+      "PremiumAmount": "8",
+      "PremiumStatus": "65"
+    }, {
+      "SumAssured": "5",
+      "PremiumAmount": "565",
+      "PremiumStatus": "65"
+    }, {
+      "SumAssured": "65",
+      "PremiumAmount": "6",
+      "PremiumStatus": "65"
+    }, {
+      "SumAssured": "65",
+      "PremiumAmount": "56",
+      "PremiumStatus": "65"
+    }, {
+      "SumAssured": "65",
+      "PremiumAmount": "56",
+      "PremiumStatus": "6"
+    }],
+    "OtherBankComfortLetter": [{
+      "Amount": "65",
+      "Conditions": "hhhhhhhhhh  hhhhhhhhhh jhhhhhhhh ghhhhhh hdsf hdsafh dhsakjf kdsaf sdkjah fkkjdsahf kjdsah fkksajdhf kdsjaf hksdaf hkdsjafh kdsjaf hdksajf hdsafsdaf jdgsah f sdagf asjf kjasdh fhsalkjd fkhdsa kfhdks ajfkdsjfadksjaf  dskjafkd safkj ksdaj hfkjkjsdah fkkdsahf klkjsadhf kkkdsah fdksajfh kdsaf hksda fhkdjsaf kdsaj fdsafd jhhhhhhhh ghhhhhh hdsf hdsafh dhsakjf kdsaf sdkjah fkkjdsahf kjdsah fkksajdhf kdsjaf hksdaf hkdsjafh kdsjaf hdksajf hdsafsdaf jdgsah f sdagf asjf kjasdh fhsalkjd fkhdsa kfhdks ajfkdsjfadksjaf  dskjafkd safkj ksdaj hfkjkjsdah fkkdsahf klkjsadhf kkkdsah fdksajfh kdsaf hksda fhkdjsaf kdsaj fdsafd",
+      "DateOrValidity": "2016-01-02T00:00:00.000Z",
+      "opened": false
+    }, {
+      "Amount": "65",
+      "Conditions": "",
+      "DateOrValidity": "2015-12-02T00:00:00.000Z",
+      "opened": false
+    }, {
+      "Amount": "65",
+      "Conditions": "hhhhhhhhhh  hhhhhhhhhh jhhhhhhhh ghhhhhh hdsf hdsafh dhsakjf kdsaf sdkjah fkkjdsahf kjdsah fkksajdhf kdsjaf hksdaf hkdsjafh kdsjaf hdksajf hdsafsdaf jdgsah f sdagf asjf kjasdh fhsalkjd fkhdsa kfhdks ajfkdsjfadksjaf  dskjafkd safkj ksdaj hfkjkjsdah fkkdsahf klkjsadhf kkkdsah fdksajfh kdsaf hksda fhkdjsaf kdsaj fdsafd jhhhhhhhh ghhhhhh hdsf hdsafh dhsakjf kdsaf sdkjah fkkjdsahf kjdsah fkksajdhf kdsjaf hksdaf hkdsjafh kdsjaf hdksajf hdsafsdaf jdgsah f sdagf asjf kjasdh fhsalkjd fkhdsa kfhdks ajfkdsjfadksjaf  dskjafkd safkj ksdaj hfkjkjsdah fkkdsahf klkjsadhf kkkdsah fdksajfh kdsaf hksda fhkdjsaf kdsaj fdsafd",
+      "DateOrValidity": "2016-01-07T00:00:00.000Z",
+      "opened": false
+    }, {
+      "Amount": "65",
+      "Conditions": "",
+      "DateOrValidity": "2015-12-01T00:00:00.000Z",
+      "opened": false
+    }, {
+      "Amount": "65",
+      "Conditions": "",
+      "DateOrValidity": "2015-12-07T00:00:00.000Z",
+      "opened": false
+    }, {
+      "Amount": "6",
+      "Conditions": "hhhhhhhhhh  hhhhhhhhhh jhhhhhhhh ghhhhhh hdsf hdsafh dhsakjf kdsaf sdkjah fkkjdsahf kjdsah fkksajdhf kdsjaf hksdaf hkdsjafh kdsjaf hdksajf hdsafsdaf jdgsah f sdagf asjf kjasdh fhsalkjd fkhdsa kfhdks ajfkdsjfadksjaf  dskjafkd safkj ksdaj hfkjkjsdah fkkdsahf klkjsadhf kkkdsah fdksajfh kdsaf hksda fhkdjsaf kdsaj fdsafd jhhhhhhhh ghhhhhh hdsf hdsafh dhsakjf kdsaf sdkjah fkkjdsahf kjdsah fkksajdhf kdsjaf hksdaf hkdsjafh kdsjaf hdksajf hdsafsdaf jdgsah f sdagf asjf kjasdh fhsalkjd fkhdsa kfhdks ajfkdsjfadksjaf  dskjafkd safkj ksdaj hfkjkjsdah fkkdsahf klkjsadhf kkkdsah fdksajfh kdsaf hksda fhkdjsaf kdsaj fdsafd",
+      "DateOrValidity": "2015-12-07T00:00:00.000Z",
+      "opened": false
+    }],
+    "ElectricityBill": [{
+      "BillAmount": "76",
+      "PaidAmount": "767",
+      "DueDate": "2014-01-29T18:30:00.000Z",
+      "PaidDate": "2014-02-13T18:30:00.000Z",
+      "opened": false
+    }, {
+      "BillAmount": "767",
+      "PaidAmount": "67",
+      "DueDate": "2014-01-28T18:30:00.000Z",
+      "PaidDate": "2014-02-26T18:30:00.000Z",
+      "opened": false
+    }, {
+      "BillAmount": "76",
+      "PaidAmount": "767",
+      "DueDate": "2014-01-26T18:30:00.000Z",
+      "PaidDate": "2014-02-11T18:30:00.000Z",
+      "opened": false
+    }, {
+      "BillAmount": "76",
+      "PaidAmount": "67",
+      "DueDate": "2014-01-31T18:30:00.000Z",
+      "PaidDate": "2014-08-06T18:30:00.000Z",
+      "opened": false
+    }, {
+      "BillAmount": "676",
+      "PaidAmount": "67",
+      "DueDate": "2014-01-26T18:30:00.000Z",
+      "PaidDate": "2014-02-09T18:30:00.000Z",
+      "opened": false
+    }, {
+      "BillAmount": "76",
+      "PaidAmount": "67",
+      "DueDate": "2014-01-27T18:30:00.000Z",
+      "PaidDate": "2014-02-19T18:30:00.000Z",
+      "opened": false
+    }]
+  },
+  "contact_info": {
+    "permanentAddress": {
+      "ResidenceAddress": "No 8,1st cross,Naganathapura,Electronic city ,Bangalore.",
+      "City": "Bangalore",
+      "ResidenceOwnership": "Rented",
+      "PinCode": "dhfdgh"
+    },
+    "isPermanentAddressSameAsPresentAddress": "True",
+    "previousAddress": {
+      "ResidenceAddress": "No 8,1st cross,Naganathapura,Electronic city ,Bangalore.",
+      "City": "Bangalore",
+      "ResidenceOwnership": "",
+      "PinCode": "670004"
+    },
+    "currentAddress": {
+      "ResidenceAddress": "hakfs78, dlhasflhlkjdsahflkj hiuweqyi fhkjdsah fkljhds kjafhkj sdahfkshfkhaf",
+      "City": "Bangalore",
+      "Years_at_residence": "More than 2 years",
+      "LandlineNumber": "7406665340",
+      "PinCode": "564897",
+      "ResidenceOwnership": "Rented",
+      "TypeOfCellPhone": "Prepaid"
+    }
+  },
+  "finance_info": {
+    "MonthlyExpensesOnFuel": "15000",
+    "AverageNumberOfDaysPerMonth": "26",
+    "AverageHoursSpentPerDays": "Greater than 10 hours",
+    "InsuranceMaintenanceExpenses": "3500",
+    "IsDriveForOtherCompany": "No",
+    "MonthlyExpensesOnMedical": "3000",
+    "AverageMonthlyEarnings": "80000",
+    "MonthlyRentExpenses": "3000",
+    "OtherTaxiOperator": "",
+    "MonthsOfDriving": "3 month",
+    "OtherMonthlyIncome": "234234"
+  },
+  "signup": {
+    "OTP": "5858",
+    "Email": "noemail",
+    "Name": "Siddarudha Ugnikeri",
+	"password" : "welcome"
+  },
+  "extra": {
+    "permanentAddress": {
+      "ResidenceAddress": "",
+      "City": "",
+      "PinCode": "",
+      "ResidenceOwnership": ""
+    },
+    "Name": "",
+    "FathersName": "",
+    "DOB": "",
+    "Gender": "",
+    "Phone": "",
+    "currentAddress": {
+      "ResidenceAddress": "",
+      "City": "",
+      "Years_at_residence": "Choose the closest match",
+      "PinCode": "",
+      "ResidenceOwnership": ""
+    },
+    "PAN": "",
+    "RelationShipWithApplicant": ""
+  },
+  "loan_req_details": {
+    "EmiAmount": "4146",
+    "OnRoadPrice": "640000",
+    "DownPaymentAmount": "37500",
+    "CarType": "Maruti Swift Dzire Tour",
+    "LoanAmountTenure": "48",
+    "LoanAmountRequired": "602500",
+    "CurrentCarDriven": "Indica"
+  },
+  "source": "uber",
+  "metadata": {
+    "id": "e87f1fcf82d10334504d2058c",
+    "name": "test",
+    "email": "1234567890",
+    "source": "uber",
+    "datetime": "2015-11-30T10:07:02.33886+00:00",
+    "signup": "success",
+    "submission": "otp_verification_success",
+    "dcsignedon": "1",
+    "dcuploaded": "null",
+    "city": "mumbai",
+    "phone": "1234567890",
+    "grade": "null",
+    "gradejson": "{}",
+    "decision": "null",
+    "model": "null",
+    "status": "app submitted",
+    "file_login": "0",
+    "cam_complete": "0",
+    "is_perfios": "0",
+    "perfios_datetime": "1900-01-01T00:00:00+00:00",
+    "owner": "null",
+    "interest_level": "new",
+    "priority": "null",
+    "signup_remarks": "null",
+    "app_datetime": "2015-11-30T10:06:56.896384+00:00",
+    "is_disbursed": "0",
+    "is_onlinedoc": "1",
+    "is_mini": "0",
+    "turnover": "null",
+    "applicant": "null",
+    "sub_source": "",
+    "is_bank_vat_fin": "0",
+    "car_type": "maruti"
+  }
+}

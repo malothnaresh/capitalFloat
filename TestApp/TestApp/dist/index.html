@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<!-- Using this file only for layout of the page -->
+<html lang="en" ng-app="testapp">
+<head>
+  <link rel="icon" href="fonts/favicon2.ico" type="image/x-icon">
+  <title>Capital Float Test</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="body-contents">
+
+<!--Header part has become custom directive now -->
+<top-header></top-header>
+<!--ng-include usage example-->
+
+<div class="well" ng-include="'http://localhost:8889/testApp/dist/templates/login/template/login.html'"></div>
+
+  <script src="js/angular.min.js"></script>
+  <script src="js/angular-route.min.js"></script>
+  <script src="//angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="templates/login/controller/app.js"></script>
+  <script src="templates/login/controller/restService.js"></script>
+  <script src="templates/topHeader/directive/topHeaderDir.js"></script>
+  <script src="templates/topHeader/controller/topHeader.js"></script>
+  <script src="components/welcome/controller/welcome.js"></script>
+  <script src="components/additionalinfo/controller/additionalinfo.js"></script>
+</body>
+</html>

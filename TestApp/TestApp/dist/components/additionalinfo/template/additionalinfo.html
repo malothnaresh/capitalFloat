@@ -1,0 +1,96 @@
+<div class="content">
+
+<div class="content-left">
+
+<ul class="content-ul">
+	<li><a class="addFlip" href="#addPanel1">Savings Instruments</a></li>
+	<li><a class="addFlip" href="#addPanel2">Prepaid Balance</a></li>
+	<li><a class="addFlip" href="#addPanel3">Loan Records</a></li>
+	<li><a class="addFlip" href="#addPanel4">Bank Statements</a></li>
+	<li><a class="addFlip" href="#addPanel5">Water Bill History</a></li>
+	<li><a class="addFlip" href="#addPanel6">Remmitance</a></li>
+	<li><a class="addFlip" href="#addPanel7">Insurance</a></li>
+	<li><a class="addFlip" href="#addPanel8">Other Bank Comfort Letter</a></li>
+	<li><a class="addFlip" href="#addPanel9">Electricity Bill History</a></li>
+</ul>
+
+<div>
+<button class="btn btn-default" ng-click="printFunction()">Print</button>
+</div>
+</div>
+
+<div class="content-right">
+	<div class="addPanel" id="addPanel1">
+		<div class="well inner">
+		<h4>Savings Instruments : </h4>
+		<ul ng-repeat="object in SavingsInstruments">
+			<li ng-repeat="(key, value) in object">{{key}} : <span ng-show="value === ''">--</span>{{value}}</li>
+		</ul>
+		</div>
+	</div>
+	<div class="addPanel" id="addPanel2">
+		<div class="well inner">
+		<h4>Prepaid Balance : </h4>
+		<ul ng-repeat="object in PrePaidBalance">
+			<li ng-repeat="(key, value) in object">{{key}} : <span ng-show="value === ''">--</span>{{value}}</li>
+		</ul>
+		</div>
+	</div>
+	<div class="addPanel" id="addPanel3">
+		<div class="well inner">
+		<h4>Loan Records : </h4>
+		<ul ng-repeat="object in LoanRecords">
+			<li ng-repeat="(key, value) in object">{{key}} : <span ng-show="value === ''">--</span>{{value}}</li>
+		</ul>
+		</div>
+	</div>
+	<div class="addPanel" id="addPanel4">
+		<div class="well inner">
+		<h4>Bank Statements : </h4>
+		<ul ng-repeat="object in BankStatements">
+			<li ng-repeat="(key, value) in object">{{key}} : <span ng-show="value === ''">--</span>{{value}}</li>
+		</ul>
+		</div>
+	</div>
+	<div class="addPanel" id="addPanel5">
+		<div class="well inner">
+		<h4>Water Bill History : </h4>
+		<ul ng-repeat="object in WaterBill">
+			<li ng-repeat="(key, value) in object">{{key}} : <span ng-show="value === ''">--</span>{{value}}</li>
+		</ul>
+		</div>
+	</div>
+	<div class="addPanel" id="addPanel6">
+		<div class="well inner">
+		<h4>Remmitance : </h4>
+		<ul ng-repeat="object in Remittances">
+			<li ng-repeat="(key, value) in object">{{key}} : <span ng-show="value === ''">--</span>{{value}}</li>
+		</ul>
+		</div>
+	</div>
+	<div class="addPanel" id="addPanel7">
+		<div class="well inner">
+		<h4>Insurance : </h4>
+		<ul ng-repeat="object in Insurance">
+			<li ng-repeat="(key, value) in object">{{key}} : <span ng-show="value === ''">--</span>{{value}}</li>
+		</ul>
+		</div>
+	</div>
+	<div class="addPanel" id="addPanel8">
+		<div class="well inner">
+		<h4>Other Bank Comfort Letter : </h4>
+		<ul ng-repeat="object in OtherBankComfortLetter">
+			<li ng-repeat="(key, value) in object">{{key}} : <span ng-show="value === ''">--</span>{{value}}</li>
+		</ul>
+		</div>
+	</div>
+	<div class="addPanel" id="addPanel9">
+		<div class="well inner">
+		<h4>Electricity Bill History : </h4>
+		<ul ng-repeat="object in ElectricityBill">
+			<li ng-repeat="(key, value) in object">{{key}} : <span ng-show="value === ''">--</span>{{value}}</li>
+		</ul>
+		</div>
+	</div>
+</div>
+</div>

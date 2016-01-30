@@ -1,0 +1,64 @@
+<div class="content">
+<div class="content-left">
+<ul class="content-ul">
+	<li><a class="flip" href="#panel1">User info</a></li>
+	<li><a class="flip" href="#panel2">Contact info</a></li>
+	<li><a class="flip" href="#panel3">Finance info</a></li>
+</ul>
+</div>
+
+<div class="content-right">
+	<h3>Welcome, {{signup.Name}}!</h3>
+	<div class="panel" id="panel2">
+		<div class="well inner">
+		<h4>Personal Details : </h4>
+		<ul>
+			<li ng-repeat="(key, value) in PersonalInfo">{{key}} : <span ng-show="value === ''">--</span>{{value}}</li>
+		</ul>
+		</div>
+		<div class="well inner">
+		<h4>Work Experience : </h4>
+		<ul>
+			<li ng-repeat="(key, value) in WorkExperience">{{key}} : <span ng-show="value === ''">--</span>{{value}}</li>
+		</ul>
+		</div>
+		<div class="well inner">
+		<h4>License details : </h4>
+		<ul>
+			<li ng-repeat="(key, value) in LicenseIds">{{key}} : <span ng-show="value === ''">--</span>{{value}}</li>
+		</ul>
+		</div>
+	</div>
+	<div class="panel" id="panel3">
+		<div class="well inner">
+		<!-- current address is same as permanent address if flag below is true -->
+		<h4>Permanent Address <span ng-if='isPermanentAddressSameAsPresentAddress'> and Current address</span> : </h4>
+		<ul>
+			<li ng-repeat="(key, value) in permanentAddress">{{key}} : <span ng-show="value === ''">--</span>{{value}}</li>
+		</ul>
+		</div>
+		<div class="well inner">
+		<h4>Previous Address : </h4>
+		<ul>
+			<li ng-repeat="(key, value) in previousAddress">{{key}} : <span ng-show="value === ''">--</span>{{value}}</li>
+		</ul>
+		</div>
+		<!--Hide if current address is same as permanent address-->
+		<div class="well inner" ng-if='!isPermanentAddressSameAsPresentAddress'>
+		<h4>Current Address : </h4>
+		<ul>
+			<li ng-repeat="(key, value) in currentAddress">{{key}} : <span ng-show="value === ''">--</span>{{value}}</li>
+		</ul>
+		</div>
+	</div>
+	<div class="panel" id="panel1">
+		<div class="well inner">
+		<!-- current address is same as permanent address if flag below is true -->
+		<h4>Finance Information : </h4>
+		<ul>
+			<li ng-repeat="(key, value) in financeInfo">{{key}} : <span ng-show="value === ''">--</span>{{value}}</li>
+		</ul>
+		</div>
+	</div>
+</div>
+</div>

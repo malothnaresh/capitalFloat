@@ -1,0 +1,19 @@
+<!--NavBar code from here-->
+<div class="navigation" ng-controller="topHeaderCtrl">
+	<nav class="large-screen">
+		<ul class="lg-nav-bar">
+		  <li><a ui-sref="home">Welcome</a></li>
+		  <ul class="lg-nav-bar-inner">
+			<li><a ui-sref="additionalinfo">Addtional Info</a></li>
+		  </ul>
+		</ul>
+	</nav>
+
+	<nav class="small-screen">
+		<button class="glyphicon glyphicon-th-list"></button>
+		<ul class="sm-nav-bar" id="showMobileNav">
+		  <li><a ui-sref="home">Welcome</a></li>
+		  <li><a ui-sref="additionalinfo">Additional Info</a></li>
+		</ul>
+	</nav>
+</div>

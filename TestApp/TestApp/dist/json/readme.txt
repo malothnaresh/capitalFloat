@@ -1,13 +1,5 @@
-//Assignment of Zenify : 
-breezometer assignment:
-create comp :
-https://breezometer.com/#fitness
-
-
 //Assignment of Capital Float : 
 === > login page with user name and password. Then OTP section with OTP validation. On success, go to welcome page. Failure, say Sorry, please provide valid details as single message for user name and password. OTP error msg : "Wrong OTP, please try again". And show login section.
-
-=== > Logout button with logout page (Sample thanks message and after 5 seconds redirect to login page)...
 
 welcome page : Have three side links. Show when user clicks them.
 User info : Show user info here
